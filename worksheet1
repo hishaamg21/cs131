@@ -1,0 +1,7 @@
+echo "# cs131" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:hishaamg21/cs131.git
+git push -u origin main
