@@ -1,0 +1,211 @@
+ 688  mkdir a1
+  689  cd a1
+  690  /
+  691  pwd
+  692  touch a1.txt
+  693  ls
+  694  history > cmds.log
+  695  ls
+  696  vim cmds.log
+  697  groups hishaam23fa
+  698  groups
+  699  sudo
+  700  cd
+  701  ls
+  702  vi cmd.lo
+  703  ls
+  704  vi cmd.log
+  705  l
+  706  ls'
+ls
+  707  ls
+  708  cd a1
+  709  ls
+  710  cmds.log
+  711  vi cmds.log
+  712  vim cmds.log
+  713  rm cmds.log
+  714  ls
+  715  touch cmds.log
+  716  ls
+  717  history > cmds.log
+  718  ls
+  719  vim cmds.log
+  720  id -Gn
+  721  rm a1.txt
+  722  ls
+  723  >a1.txt
+  724  ls
+  725  >>a1.txt
+  726  ls
+  727  cd
+  728  cd taxidata
+  729  sort 2019-01.csv | uniq -d>>txt.txt
+  730  ls
+  731  cd
+  732  cd a1
+  733  ls
+  734  mkdir temp
+  735  path
+  736  ls -1
+  737  chgrp group temp
+  738  chgrp hishaam23fa temp
+  739  ls
+  740  cd
+  741  cd a1
+  742  chown hishaam23fa temp
+  743  ls
+  744  cd
+  745  cd a1
+  746  ls -1
+  747  chmod -rwx temp
+  748  ls
+  749  cd temp
+  750  chown hishaam23fa temp
+  751  cd temp
+  752  chmod +rwx temp
+  753  cd
+  754  cd a1
+  755  cd temp
+  756  chown hishaam23fa temp
+  757  chmod -rwx temp
+  758  cd ../
+  759  chmod -rwx temp
+  760  cd temp
+  761  ls -1
+  762  vim a1.txt
+  763  chmod -rwx temp >a1.txt
+  764  vi a1.txt
+  765  chmod -rwx temp >>a1.txt
+  766  cd temp
+  767  cd temp >a1.txt
+  768  vi a1.txt
+  769  cat a1
+  770  cat a1.txt
+  771  ls -1 > a1.txt
+  772  cat a1.txt
+  773  ls
+  774  chmod -rwx temp >> a1.txt
+  775  cat a1.txt
+  776  via1.txt
+  777  vim a1.txt
+  778  chmod -rwx temp > a1.txt
+  779  cata1.txt
+  780  cat a1.txt
+  781  chmod -rwx temp >> a1.txt
+  782  cat a1.txt
+  783  ls -1 >> a1.txt
+  784  cat a1.txt
+  785  pwd >> a1.txt
+  786  cat a1.txt
+  787  id -Gn >> a1.txt
+  788  cat a1.txt
+  789  chmod -rwx temp
+  790  cd temp
+  791  cd temp >> a1.txt
+  792  cat a1.txt
+  793  chmod +rwx temp
+  794  cd temp >> a1.txt
+  795  cd ../
+  796  ls
+  797  cat a1.txt
+  798  vim a1.txt
+  799  ls -1 >> a1.txt
+  800  cat a1.txt
+  801*
+  802  mkdir temp 2
+  803  mkdir temp2
+  804  mkdir temp3
+  805  ls
+  806  rm 2
+  807  mv temp2 temp3
+  808  ls
+  809  mv temp2 temp2
+  810  cd temp3
+  811  ls
+  812  ls >> a1.txt
+  813  cat a1.txt
+  814  cd../
+  815  cd ../
+  816  cat a1.txt
+  817  ls
+  818  cd temp
+  819  ls
+  820  cd.temp3
+  821  cd temp3
+  822  ls
+  823  cd ../
+  824  cd temp3
+  825  ls
+  826  cd
+  827  cd temp
+  828  ls
+  829  cd a1
+  830  ls
+  831  cp temp3
+  832  cp temp temp3
+  833  ls
+  834  cp temp3 temp4
+  835  cp -r temp temp3
+  836  ls
+  837  cp temp3 temp >>a1.txt
+  838  cp temp3 temp >> a1.txt
+  839  cp -r temp3 temp >> a1.txt
+  840  cat a1.txt
+  841  ls
+  842  cat temp
+  843  cd temp
+  844  ls
+  845  cd temp 3
+  846  cd temp3
+  847  ls
+  848  mv a1.txt temp
+  849  cd ../
+  850  ls
+  851  cd ../
+  852  cat a1.txt
+  853  ls -1/ect
+  854  ls -1/ ect
+  855  /ect
+  856  ls
+  857  ls -1
+  858  cat 2
+  859  ls
+  860  more /proc/cpuinfo
+  861  grep processor /proc/cpuinfo
+  862  lscpu
+  863  ls /proc/cpuinfo
+  864  cat /proc/cpuinfo
+  865  cat /proc/cpuinfo >> a1.txt
+  866  cata1.txt
+  867  cat a1.txt
+  868  vi a1.txt
+  869  cat /proc/cpuinfo
+  870  grep processor /proc/cpuinfo
+  871  lscpu
+  872  more /proc/cpuinfo
+  873  ls
+  874  history >> cmds.log
+  875  vim cmds.log
+  876  vim a1.txt
+  877  ps -eo pmem,pcpu,vsize,pid,cmd | sort -k 1 -nr | head -5
+  878  $ cat /proc/meminfo | head -n 3 >> a1.txt
+  879  $ cat /proc/meminfo | head -n 3
+  880  vmstat -s >> a1.txt
+  881  vmstat -s
+  882  lscpu >> a1.txt
+  883  cat a1.txt
+  884  lscpu
+  885  cat /proc/cpuinfo
+  886  tail -5 /proc/cpuinfo
+  887  tail -10 /proc/cpuinfo
+  888  tail -10 /proc/cpuinfo >> a1.txt
+  889  cat /etc/os-release
+  890  cat /etc/os-release >> a1.txt
+  891  group /etc/os-release
+  892  ls -1/ect
+  893  ls -1 /ect
+  894  ls -1 /etc/os-release
+  895  ls -1 /etc/os-release >> a1.txt
+  896  cd
+  897  cd a1
