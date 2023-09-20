@@ -1,0 +1,300 @@
+901  cd
+  902  ls
+  903  cd ws4.txt cs131
+  904  mv ws4.txt cs131
+  905  ls
+  906  cd cs131
+  907  ls
+  908  mv ws4.txt ws4
+  909  cd ws4
+  910  ls
+  911  vi ws4.txt
+  912  cd
+  913  cd cs131
+  914  cd ws4
+  915  history >> cmds.log
+  916  ls
+  917  vi cmds.log
+  918  ls
+  919  cd
+  920  vi cmds.log
+  921  rm -r cmds.log
+  922  ls
+  923  vi cmd.log
+  924  script
+  925  ls
+  926  vi typescript
+  927  rm -r typescript
+  928  ls
+  929  cd cs131
+  930  cd ws4
+  931  script >> ws4.txt
+  932  ls
+  933  vi ws4.txt
+  934  ls
+  935  alias w='ls -l | wc -l' ---- put into .bashrc
+  936  alias l='ls -ltr' ---- put into .bashrc
+  937  history >>cmds.log
+  938  vi cmds.log
+  939  cd
+  940  ls -a
+  941  vim .bashrc
+  942  w
+  943  cd cs131
+  944  cs ws4
+  945  cd ws4
+  946  mv ws4.txt ../
+  947  cd ../
+  948  mv ws4.txt ../
+  949  ls
+  950  cd
+  951  ls
+  952  w >> ws4.txt
+  953  vi ws4.txt
+  954  mv ws4.txt cs131
+  955  cd cs131
+  956  mv ws4.txt ws4
+  957  cd ws4
+  958  ls
+  959  mkdir FARE
+  960  ls
+  961  git pull
+  962  git pull my-new-branch
+  963  git status
+  964  ls
+  965  cd
+  966  rm -r a1
+  967  cd a1
+  968  ls
+  969  rm -r trial.txt
+  970  ls
+  971  cd
+  972  rm -r a1
+  973  rm -f a1
+  974  -f a1
+  975  ls
+  976  git pull
+  977  cd cs131
+  978  ls
+  979  rm -r a1
+  980  rm -f a1
+  981  rm -rf a1
+  982  ls
+  983  cd
+  984  rm -rf a1
+  985  l
+  986  ls
+  987  cd cs131
+  988  git pull
+  989  git status
+  990  git reset
+  991  git status
+  992  w
+  993  git add ws4
+  994  git status
+  995  ls
+  996  cd taxidata
+  997  ./runme
+  998  path
+  999  ls
+ 1000  cd cs131
+ 1001  cd ws4
+ 1002  cd
+ 1003  cd taxidata
+ 1004  head 2019-09.csv
+ 1005    egrep ',[NY]?,145.0,145.0,' 2019-06.csv | cut -d ',' -f 11 > 145.0-145.0.txt
+ 1006    head 145.0-145.0.txt
+ 1007  head 2019-09.csv
+ 1008    egrep ',[NY]?,145.0,145.0,' 2019-06.csv | cut -d ',' -f 11 > 232.0-260.0.txt
+ 1009    mv 145.0-145.0.txt ~/ws4/
+ 1010  ls
+ 1011    mv 145.0-145.0.txt ~/cs131/ws4/
+ 1012    mv 232.0-260.0.txt ~/cs131/ws4/
+ 1013  cd
+ 1014  cd cs131
+ 1015  cd ws4
+ 1016  ls
+ 1017  sum1=$(paste -sd+ 145.0-145.0.txt | bc)
+ 1018  echo "sum1: $sum1"
+ 1019   count1=$(wc -l < 145.0-145.0.txt)
+ 1020   echo "count1: $count1"
+ 1021  mean1=$(echo "scale=2; $sum1 / $count1" | bc)
+ 1022   echo "mean1: $mean1"
+ 1023   ls
+ 1024    echo "$mean1" >> ws4.txt
+ 1025  cat ws4.txt
+ 1026  sum2=$(paste -sd+ 232.0-260.0.txt | bc)
+ 1027  ls
+ 1028   echo "sum2: $sum2"
+ 1029  count2=$(wc -l < 232.0-260.0.txt)
+ 1030    echo "count2: $count2"
+ 1031   mean2=$(echo "scale=2; $sum2 / $count2" | bc)
+ 1032   echo "mean2: $mean2"
+ 1033    echo "$mean2" >> ws4.txt
+ 1034   mv 145.0-145.0.txt FARE
+ 1035   mv 232.0-260.0.txt FARE
+ 1036  ls
+ 1037  cat ws4.txt
+ 1038  cd ws4
+ 1039  cd FARE
+ 1040  ls
+ 1041  cat 14.0-145.0.txt
+ 1042  cat 145.0-145.0.txt
+ 1043  ls
+ 1044  cd ../
+ 1045  history >> cmds.log
+ 1046  ls
+ 1047  git status
+ 1048  git add FARE
+ 1049  git add ws4.txt
+ 1050  git status
+ 1051  git add cmds.log
+ 1052  git status
+ 1053  git push origin master
+ 1054  git pull
+ 1055  git push my-new-branch
+ 1056  git commit
+ 1057  git push origin master
+ 1058  git pull
+ 1059  git push -u my-new-branch
+ 1060  cd
+ 1061  cd cs131
+ 1062  git pull
+ 1063  git push
+ 1064  git push orign my-new-branch
+ 1065  git status
+ 1066  git push -u origin master
+ 1067  git branch
+ 1068  git switch master
+ 1069  git push -u origin master
+ 1070  git switch
+ 1071  git switch my-new-branch
+ 1072  git push -u my-new-branch
+ 1073  git commit -m "ws4"
+ 1074  git branch
+ 1075   git remote add origin https://github.com/hishaamg21/cs131.git
+ 1076  git push -u origin master
+ 1077  cd ws4
+ 1078  git status
+ 1079  git add ws4
+ 1080  git add FARE
+ 1081  git status
+ 1082  git push -u
+ 1083  git puush -u my-new-branch
+ 1084  git push -u my-new-branch
+ 1085  git push -u origin master
+ 1086  git push -u origin my-new-branch
+ 1087  git pull master
+ 1088  git pull -u origin master
+ 1089  git pull origin master
+ 1090  git commit -m
+ 1091  git commit -m "ws4 commit"
+ 1092  git switch master
+ 1093  git push origin master
+ 1094  git push -u origin master
+ 1095  cd ../
+ 1096  git push -u origin master
+ 1097  git reset
+ 1098  git status
+ 1099  git push -u master
+ 1100  git push origin master
+ 1101  git status
+ 1102  git pull
+ 1103  cd ws4
+ 1104  ls
+ 1105  cd
+ 1106  ls
+ 1107  git commit
+ 1108  ls
+ 1109  cd cs131
+ 1110  ls
+ 1111  cd ws3
+ 1112  ls
+ 1113  cd
+ 1114  cd cs131
+ 1115  ls'
+ 1116  ls
+ 1117  cd
+ 1118  cd taxidata
+ 1119  ls
+ 1120  cd
+ 1121  ls -a
+ 1122  cd cs 131
+ 1123  cd cs131
+ 1124  vim cmd.log
+ 1125  ls
+ 1126  vim cmds.log
+ 1127  cd
+ 1128  vim cmds.log
+ 1129  ls
+ 1130  vim cmd.log
+ 1131  script ws4.txt
+ 1132  ls
+ 1133  vi ws4.txt
+ 1134  vim ws4.txt
+ 1135  history >> cmd.log
+ 1136  cat cmd.log
+ 1137  cd cs131
+ 1138  ls
+ 1139  mkdir ws4
+ 1140  ls
+ 1141  cd ws4
+ 1142  mkdir FARE
+ 1143  ls
+ 1144  cd
+ 1145  cd taxidata
+ 1146  head 2019-06.csv
+ 1147   egrep ',[NY]?,145.0,145.0,' 2019-06.csv | cut -d ',' -f 11 > 145.0-145.0.txt
+ 1148  head 145.0-145.0.txt
+ 1149   egrep ',[NY]?,230.0,260.0,' 2019-06.csv | cut -d ',' -f 11 > 230.0-260.0.txt
+ 1150  mv 145.0-145.0.txt ~/cs131/ws4/
+ 1151  mv 230.0-260.0.txt ~/cs131/ws4/
+ 1152  ls
+ 1153  cd
+ 1154  cd cs 131
+ 1155  cd cs131
+ 1156  cd ws4
+ 1157  ls
+ 1158   sum1=$(paste -sd+ 145.0-145.0.txt | bc)
+ 1159  echo "sum1: $sum1"
+ 1160   count1=$(wc -l < 145.0-145.0.txt)
+ 1161  echo "count1: $count1"
+ 1162   mean1=$(echo "scale=2; $sum1 / $count1" | bc)
+ 1163   echo "mean1: $mean1"
+ 1164   echo "$mean1" >> ws4.txt
+ 1165   sum2=$(paste -sd+ 230.0-260.0.txt | bc)
+ 1166  echo "sum2: $sum2"
+ 1167  count2=$(wc -l < 230.0-260.0.txt)
+ 1168  echo "count2: $count2"
+ 1169  mean2=$(echo "scale=2; $sum2 / $count2" | bc)
+ 1170   echo "mean2: $mean2"
+ 1171  echo "$mean2" >> ws4.txt
+ 1172   mv 145.0-145.0.txt FARE
+ 1173   mv 230.0-260.0.txt FARE
+ 1174  ls
+ 1175  cat ws4.txt
+ 1176  cd FARE
+ 1177  cat 145.0-145.0.txt
+ 1178  ls
+ 1179  cd
+ 1180  git status
+ 1181  cd cs131
+ 1182  cd ws4
+ 1183  git push origin master
+ 1184  ls
+ 1185  cat ws4.txt
+ 1186  cd FARE
+ 1187  ls
+ 1188  cat 145.0-145.0.txt
+ 1189  cat 230.0-260.txt
+ 1190  ls
+ 1191  cat 230.0-260.0txt
+ 1192  cat 230.0-260.0.txt
+ 1193  ls
+ 1194  cd ../
+ 1195  cd../
+ 1196  cd
+ 1197  cd cs131
+ 1198  ls
+ 1199  vi cmds.log
+ 1200  history >> cmds.log
