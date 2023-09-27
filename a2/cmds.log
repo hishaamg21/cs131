@@ -3,7 +3,7 @@
  1097  cat tail -100 cmd.log
  1098  tail -100 cmd.log
  1099  ls
- 1100  cd
+ 1100  cd 
  1101  cd taxidata
  1107  ls
  1108  grep -E ".....2019-05-11" 2019-05.csv > may.txt
