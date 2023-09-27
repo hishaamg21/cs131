@@ -1,0 +1,72 @@
+1014  cd
+ 1015  cd cs131
+ 1016  ls
+ 1017  mkdir ws5
+ 1018  ls
+ 1019  cd
+ 1020  cd taxidata
+ 1021  grep -E "^([^,]*,){7}234.0" 2019-08.csv | cut -d, -f9 | sort -n | uniq -c | sort -k1 -nr | head -100 | cut -b 9-14 > ~ cs131/ws5/top_100.txt
+ 1022  ls
+ 1023  cd cs131
+ 1024  cd ws5
+ 1025  cd
+ 1026  cd cs131
+ 1027  ls
+ 1028  cd ws5
+ 1029  ls
+ 1030  cd
+ 1031  cd taxidata
+ 1033  grep -E "^([^,]*,){7}234.0" 2019-08.csv | cut -d, -f9 | sort -n | uniq -c | sort -k1 -nr | head -100 | cut -b 9-14 > top_100.txt
+ 1034  ls
+ 1036  mv top_100.txt cs131
+ 1037  ls
+ 1038  cd cs131
+ 1039  cd
+ 1040  cd cs131
+ 1041  ls
+ 1042  cd ws5
+ 1043  ls
+ 1044  cd ..
+ 1045  ls
+ 1046  cd
+ 1047  ls
+ 1048  cd cs131
+ 1049  ls
+ 1054  ls
+ 1055  cd
+ 1056  ls
+ 1057  cd cs131
+ 1060  ls -a
+ 1061  ls
+ 1062  cd
+ 1063  cd taxidata
+ 1065  mv top_100.txt ../
+ 1066  cd
+ 1067  ls
+ 1068  mv top_100.txt cs131
+ 1069  cd cs131
+ 1070  ls
+ 1071  mv top_100.txt ws5
+ 1074  ls
+ 1075  cd ..
+ 1076  cd ws5
+ 1077  ls
+ 1078  cd ..
+ 1079  cd ws5
+ 1080  ls
+ 1081  mkdir do234
+ 1082  ls
+ 1085  for i in `cat ~/cs131/ws5/top_100.txt`; do grep -E "^([^,]*,){8}$i" ~/taxidata/2019-08.csv > ~/cs131/ws5/do234/$i.txt; done
+ 1086  ls
+ 1087  cd do234
+ 1088  ls
+ 1089  wc -l 1.0.txt >> ws5.txt
+ 1090  wc -l 3.0.txt >> ws5.txt
+ 1091  wc -l 48.0.txt >> ws5.txt
+ 1092  wc -l 223.0.txt >> ws5.txt
+ 1093  vim ws5.txt
+ 1094  ls
+ 1095  cd..
+ 1096  cd ..
+ 1095  ls
+ 1096  history >> cmd.log
