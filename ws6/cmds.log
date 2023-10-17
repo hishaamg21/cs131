@@ -1,1 +1,15 @@
 
+
+1015  cd cs131
+1016  mkdir ws6
+1017  cd 
+1018  cd taxidata
+1019  ls
+1020  head -10 2019-11.csv
+1021  sed -n '/^2.0,/p' 2019-11.csv > vendor2.csv
+1023  head -10 vendor2.csv
+1024  wc -l vendor2.csv > ws6.txt
+1037  sed 's/://g; s/"//g; s/-//g' 2019-11.csv > ~/ws6/no-separators.csv
+1038  head -10 no-separators.csv >> ws6.txt 
+1056  sed 's/\.[0-9]*//g' no-separators.csv > no-fractions.csv
+1057  head -10 no-fractions.csv >> ws6.txt
