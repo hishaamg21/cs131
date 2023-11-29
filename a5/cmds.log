@@ -1,4 +1,6 @@
 
     1. Understanding the top 10 highest-rated animated series with a significant number of IMDb ratings.
 awk -F, 'NR > 1 {print $1","$5}' anime.csv | sort -t, -k2 -nr | head -n 10 > toprate.dat
-    2. 
+    2. Top 3 most reoccurring genres in the list
+awk -F, 'NR>1 {print $4}' anime.csv | tr -d ' ' | tr ',' '\n' | sort | uniq -c | sort -nr | head -n 3 > genre.dat
+
