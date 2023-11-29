@@ -1,1 +1,4 @@
 
+    1. Understanding the top 10 highest-rated animated series with a significant number of IMDb ratings.
+awk -F, 'NR > 1 {print $1","$5}' anime.csv | sort -t, -k2 -nr | head -n 10 > toprate.dat
+    2. 
